@@ -1,0 +1,12 @@
+# Multivariate Regression for Robot Calibration🤖
+## Created By: Maureen Ekwebelem
+
+## 🔧 Overview
+In this project, I will be using multivariate linear regression to model the behavior of a robot arm — specifically, to predict the amount of electrical current a joint draws based on its motion. This type of model will be useful in estimating power usage and improving how the robot moves and responds over time.
+
+The data comes from TU Dortmund's TUDOR Project🤖 and can be accessed here:
+[TUDOR Project](https://rst.etit.tu-dortmund.de/en/forschung/robotik/leichtbau/details-tudor/),
+[MERIt dataset](https://rst.etit.tu-dortmund.de/en/forschung/robotik/leichtbau/details-tudor/#c11560) 
+The data includes motion and sensor readings from a three-link robot. It's designed to support research on robot dynamics and control systems.
+
+I wanted to see how far a simple method like linear regression could go when applied to robotics data. This notebook walks through the data, builds and evaluates a model, and uses normalized RSS to measure performance—while also highlighting areas for improvement and future exploration.
